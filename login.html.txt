@@ -1,0 +1,160 @@
+/* Base colors */
+:root {
+    background color: #8360c3, #2ebf91;
+    --white:#fff;
+  }
+  
+  /* Global styles */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var( #8360c3, #2ebf91);
+    color: var(--dark-brown);
+  }
+  
+  header {
+    background-color: var( #8360c3, #2ebf91);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 30px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--white);
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid var( #8360c3, #2ebf91);
+    text-align: left;
+  }
+  
+  th {
+    background-color: var( #8360c3, #2ebf91);
+    color: var(--white);
+  }
+  .print-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--dark-brown);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .print-btn:hover {
+    background-color: #8360c3, #2ebf91;
+  }
+  
+  footer {
+    background-color: var( #8360c3, #2ebf91);
+    color: var(--white);
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #8360c3, #2ebf91);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-header {
+    width: 100%;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .user-icon img {
+    background-color: #1e2a38;
+    border-radius: 50%;
+    padding: 10px;
+    width: 60px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    background-color: #1e2a38;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .input-group .icon {
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .input-group input {
+    border: none;
+    background: none;
+    color: white;
+    width: 100%;
+    outline: none;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+    font-size: 12px;
+    color: white;
+  }
+  
+  .options a {
+    color: #8360c3, #2ebf91;
+    text-decoration: none;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #1e2a38;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+        
