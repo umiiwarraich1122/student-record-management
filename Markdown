@@ -1,0 +1,18 @@
+## How to Run the Project
+
+1. Install XAMPP
+2. Start Apache and MySQL
+3. Copy the project folder into the **htdocs** folder
+4. Open phpMyAdmin
+5. Import the database file (database.sql)
+6. Open the browser and run:
+
+http://localhost/student-management-system
+
+## Author
+M Umair Ashraf  
+BS Computer Science Student  
+University of Gujrat (Sub Campus Mandi Bahauddin)
+
+## Purpose
+This project was created for learning web development and database integration using PHP and MySQL.
